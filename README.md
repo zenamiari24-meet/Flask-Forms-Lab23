@@ -25,7 +25,7 @@ First things first, in the top of `app.py`, you have some variables configured. 
 ```python
 username = "llo2ay"
 password = "123"
-facebook_friends=["Loai","Yonathan","Adan", "George", "Fouad", "Celina"]
+facebook_friends=["Loai","Kenda","Avigail", "George", "Fouad", "Gi"]
 ```
   
 
