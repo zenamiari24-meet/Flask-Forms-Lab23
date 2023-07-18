@@ -23,7 +23,7 @@ It should look something like this:
   
 First things first, in the top of `app.py`, you have some variables configured. Feel free to edit them according to your own preferences. The variables looks something like this:
 ```python
-username = "llo2ay"
+username = "siwarha"
 password = "123"
 facebook_friends=["Loai","Kenda","Avigail", "George", "Fouad", "Gi"]
 ```
