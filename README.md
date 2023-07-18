@@ -76,11 +76,8 @@ If not, make sure you commit and push your code.
 1. When you **login**, is the username case sensitive? If not, fix these issues so your app could work properly.
 
 2. Add a dictionary of usernames and passwords, accounts that are allowed to log in to your Facebook app.
- 
-3. Instead of `friend_exists/{{name}}`, make the link to each "friend" in `home.html` (`facebook_friends` list), that when clicked, it should Google the name. 
-  - In other words, if you click on `"Loai"`, it should take you to the results google page when searching for "Loai".
- 
-4. If you have extra time, complete yesterday's (or any other) lab(s) if you haven't yet!
+
+3. If you have extra time, complete yesterday's (or any other) lab(s) if you haven't yet!
 
 ##### Great job on completing the bonus problems section!  
 ###### make sure you commit and push your code.
