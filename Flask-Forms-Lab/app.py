@@ -8,9 +8,9 @@ app = Flask(  # Create a flask app
 )
 
 
-username = "llo2ay"
+username = "Siwarha"
 password = "123"
-facebook_friends=["Loai","Yonathan","Adan", "George", "Fouad", "Celina"]
+facebook_friends=["Loai","Kenda","Avigail", "George", "Fouad", "Gi"]
 
 
 @app.route('/')  # '/' for the default page
