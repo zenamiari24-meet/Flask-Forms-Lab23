@@ -11,6 +11,7 @@ app = Flask(  # Create a flask app
 username = "zena"
 password = "1234"
 facebook_friends=["Yasmeenah","Salma","Rita", "Lilia", "Watan", "Bandora"]
+friends_friends="zena"
 
 
 @app.route('/', methods = ['GET','POST'])  # '/' for the default page
@@ -30,6 +31,12 @@ def login():
 def home():
 	facebook_friends=["Yasmeenah","Salma","Rita", "Lilia", "Watan", "Bandora"]
 	return render_template('home.html', friends =facebook_friends)
+
+
+@app.route('/friend_exists/<string:name>')
+def friend_exists(name):
+    return render_template('friend_exists.html', n = name)
+
 
 
 
