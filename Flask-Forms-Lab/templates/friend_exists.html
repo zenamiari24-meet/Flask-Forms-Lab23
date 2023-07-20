@@ -12,6 +12,13 @@
 <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
 <h1> Hello {{ n }}! </h1>
 
+<h2>does {{n}} exist in your friends?</h2>
+{%if is_friend%}
+   <p>{{n}} exist in my friends</p>
+{%else%}
+   <p>{{n}} doesn't exist in my friends</p>
+{% endif %}
+
 </head>
 <body>
 
